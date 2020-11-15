@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fr.ornidroid"
-    android:installLocation="auto"
-    android:versionCode="31"
-    android:versionName="11.3.1" >
+    package="fr.ornidroid" >
     <!-- ANDROID DEBUGGABLE !! -->
-    <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="19" />
-
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -19,7 +12,8 @@
         android:normalScreens="true"
         android:smallScreens="true"
         android:xlargeScreens="true" />
-<!-- ANDROID DEBUGGABLE   android:debuggable="true" !! -->
+    <!-- ANDROID DEBUGGABLE   android:debuggable="true" !! -->
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_ornidroid"
