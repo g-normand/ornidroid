@@ -36,7 +36,9 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'androidx.navigation:navigation-fragment:2.2.2'
     implementation 'androidx.navigation:navigation-ui:2.2.2'
-    implementation 'org.androidannotations:androidannotations:3.3.2'
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    annotationProcessor 'org.androidannotations:androidannotations:4.7.0'
+    implementation 'org.androidannotations:androidannotations-api:4.7.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

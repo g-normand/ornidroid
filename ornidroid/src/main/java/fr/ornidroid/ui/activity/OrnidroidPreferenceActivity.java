@@ -22,7 +22,7 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Window;
-import de.greenrobot.event.EventBus;
+import org.greenrobot.eventbus.EventBus;
 import fr.ornidroid.R;
 import fr.ornidroid.event.EventType;
 import fr.ornidroid.event.GenericEvent;

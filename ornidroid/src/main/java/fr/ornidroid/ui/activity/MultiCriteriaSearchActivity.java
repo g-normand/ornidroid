@@ -18,7 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import de.greenrobot.event.EventBus;
+import org.greenrobot.eventbus.EventBus;
 import fr.ornidroid.R;
 import fr.ornidroid.bo.MultiCriteriaSearchFormBean;
 import fr.ornidroid.event.EventType;

@@ -7,7 +7,7 @@ import org.androidannotations.annotations.ViewById;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.support.v4.app.FragmentManager;
+import androidx.fragment.app.FragmentManager;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
